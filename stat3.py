@@ -33,5 +33,8 @@ with open("vers.csv") as csvfile:
             col0.append(cole0)
             col1.append(cole1)
             col2.append(cole2)
-        
-
+            
+            
+col0 = list(map(int,col0)) 
+col1 = list(map(int,col1))
+col2 = list(map(float,col2))  
